@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/','Controller@index')->name('index');
+
+Route::get('/layanan','Controller@layanan')->name('layanan');
+Route::get('/membership','Controller@membership')->name('membership');
+Route::get('/tentangkami','Controller@tentangkami')->name('tentangkami');

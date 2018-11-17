@@ -10,4 +10,21 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+    public function layanan()
+    {
+        return view('layanan');
+    }
+    public function index()
+    {
+        return view('welcome');
+    }
+    public function membership()
+    {
+        return view('membership');
+    }
+    public function tentangkami()
+    {
+        return view('tentangkami');
+    }
 }
+
