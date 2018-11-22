@@ -16,7 +16,7 @@ class Controller extends BaseController
     }
     public function index()
     {
-        return view('welcome');
+        return view('welcome2');
     }
     public function membership()
     {
@@ -26,5 +26,8 @@ class Controller extends BaseController
     {
         return view('tentangkami');
     }
+    public function admin()
+    {
+        return view('admin');
+    }
 }
-
