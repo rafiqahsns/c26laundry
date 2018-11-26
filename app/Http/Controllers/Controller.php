@@ -28,6 +28,6 @@ class Controller extends BaseController
     }
     public function admin()
     {
-        return view('admin');
+        return view('admin.admin');
     }
 }
