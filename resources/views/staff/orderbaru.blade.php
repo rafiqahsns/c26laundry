@@ -22,6 +22,32 @@
   <!-- Content Column -->
   <div class="col-lg-9 mb-4">
     <div class="customer">
+	<div class="container">
+		<button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Cari customer</button>
+
+			<div id="id02" class="modal">
+
+			<form class="modal-content animate" action="/action_page.php">
+				<div class="imgcontainer">
+				<span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+				
+				</div>
+				
+				<div class="container">
+				<h2 class="text-center">Cari Customer</h2>
+					<div style="width:90%;">
+						<div class="search">
+							<input type="text" class="searchTerm2" placeholder="What are you looking for?">
+							<button type="submit" class="searchButton2">
+								<i class="fa fa-search"></i>
+							</button>
+						</div>
+					</div>
+				</div>
+
+
+			</form>
+			</div>
         <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Tambah customer</button>
 
         <div id="id01" class="modal">
@@ -46,23 +72,15 @@
         
         </form>
         </div>
-
+	</div>
     <div class="container">
-    <div class="row">
-        <div class="col-xs-12">
-    		<div class="row">
-    			<div class="col-xs-6">
-    				<address>
-    				<strong>Billed To:</strong><br>
-    					John Smith<br>
-    					1234 Main<br>
-    					Apt. 4B<br>
-    					Springfield, ST 54321
-    				</address>
-    		    </div>
-    	    </div>
-        </div>
-    </div>
+    	<div style="padding: 15px 0;">
+    				
+			<strong>Billed To:</strong><br>
+								John Smith<br>
+								1234 Main Apt. 4B Springfield, ST 54321<br>
+								081234567890<br>
+    	</div>
     
     <div class="row">
     	<div class="col-md-12">

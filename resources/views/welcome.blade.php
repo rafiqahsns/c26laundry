@@ -13,7 +13,7 @@
           <div class="wrap">
             <div class="search">
                 <input type="text" class="searchTerm" placeholder=" Masukkan nomor order ">
-                <button type="submit" class="searchButton">
+                <button style="padding: 0px;" type="submit" class="searchButton">
                     <i class="fa fa-search"></i>
                 </button>
             </div>
