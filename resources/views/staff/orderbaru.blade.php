@@ -81,7 +81,50 @@
 								1234 Main Apt. 4B Springfield, ST 54321<br>
 								081234567890<br>
     	</div>
-    
+		<button onclick="document.getElementById('id03').style.display='block'" style="width:auto;">Tambah barang</button>
+
+			<div id="id03" class="modal">
+
+			<form class="modal-content animate" action="/action_page.php">
+				<div class="imgcontainer">
+				<span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal">&times;</span>
+				
+				</div>
+				<h2 class="text-center">Tambah barang</h2>
+				<div class="container">
+					<div class="dropdown">
+						<a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-primary" data-target="#" href="/page.html">
+							Dropdown <span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+						<li><a href="#">Some action</a></li>
+						<li><a href="#">Some other action</a></li>
+						<li class="divider"></li>
+						<li class="dropdown-submenu">
+							<a tabindex="-1" href="#">Hover me for more options</a>
+							<ul class="dropdown-menu">
+							<li><a tabindex="-1" href="#">Second level</a></li>
+							<li class="dropdown-submenu">
+								<a href="#">Even More..</a>
+								<ul class="dropdown-menu">
+									<li><a href="#">3rd level</a></li>
+									<li><a href="#">3rd level</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Second level</a></li>
+							<li><a href="#">Second level</a></li>
+							</ul>
+						</li>
+						</ul>
+					</div>
+				<label for="qty"><b>Banyaknya</b></label>
+				<input type="text" placeholder="Banyaknya" name="qty" required>
+				<button type="submit">Tambah</button>
+				</div>
+
+
+			</form>
+			</div>
     <div class="row">
     	<div class="col-md-12">
     		<div class="panel panel-default">
