@@ -1,6 +1,6 @@
 @extends('layouts.navbar')
 
-<section  id="about">
+<section  id="about" class="headerbg">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
@@ -41,3 +41,5 @@
       </div>
     </div>
 </div>
+
+@extends('layouts.footer')

@@ -15,7 +15,5 @@ Route::get('/','Controller@index')->name('index');
 Route::get('/layanan','Controller@layanan')->name('layanan');
 Route::get('/membership','Controller@membership')->name('membership');
 Route::get('/tentangkami','Controller@tentangkami')->name('tentangkami');
-Route::get('/admin','Controller@admin')->name('admin');
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/stafflogin','Controller@login')->name('login');
+Route::get('/orderbaru','Controller@orderbaru')->name('orderbaru');

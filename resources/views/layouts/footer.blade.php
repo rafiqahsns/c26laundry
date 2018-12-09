@@ -10,22 +10,22 @@
             <h4 class="text-uppercase mb-4">HUBUNGI KAMI</h4>
             <ul class="list-inline mb-0">
               <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                <a class="btn btn-outline-light btn-social text-center" style="display: contents;" href="#">
                   <i class="fab fa-fw fa-facebook-f"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" style="font-weight: 10;" href="#">
+                <a class="btn btn-outline-light btn-social text-center" style="font-weight: 10;display: contents;" href="#">
                   <i class="fab fa-fw fa-whatsapp"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+                <a class="btn btn-outline-light btn-social text-center" style="display: contents;" href="https://twitter.com/c26_laundry">
                   <i class="fab fa-fw fa-twitter"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" style="font-weight: 10;" href="#">
+                <a class="btn btn-outline-light btn-social text-center" style="font-weight: 10;display: contents;" href="#">
                   <i class="fab fa-fw fa-line"></i>
                 </a>
               </li>

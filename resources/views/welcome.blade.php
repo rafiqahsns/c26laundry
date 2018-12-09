@@ -1,6 +1,6 @@
 @extends('layouts.navbar')
 
-    <header class="masthead text-center text-white d-flex">
+    <header class="masthead text-center d-flex">
       <div class="container my-auto">
         <div class="row">
           <div class="col-lg-10 mx-auto">
@@ -30,8 +30,8 @@
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading text-white">Kami siap melayani Anda!</h2>
             <hr class="light my-4">
-            <p class="text-faded mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-            <a class="btn btn-light btn-xl js-scroll-trigger" href="{{ route('layanan') }}">Get Started!</a>
+            <p class="text-faded mb-4">C26 Laundry hadir dengan konsep Modernist Laundry (Proses) dan kesan Industrialis (Store) dan seterusnya..</p>
+            <a class="btn btn-light btn-xl js-scroll-trigger" href="{{ route('layanan') }}">Selengkapnya</a>
           </div>
         </div>
       </div>
@@ -41,7 +41,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">At Your Service</h2>
+            <h2 class="section-heading">Mengapa C26 Laundry?</h2>
             <hr class="my-4">
           </div>
         </div>
@@ -58,8 +58,8 @@
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <img src="/img/dryclean.png">
-              <h3 class="mb-3">Dry Clean</h3>
-              <p class="text-muted mb-0">You can use this theme as is, or you can make changes!</p>
+              <h3 class="mb-3">Modern</h3>
+              <p class="text-muted mb-0">Sistem order laundry berbasis online dan offline, semua terakses media sosial.</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
@@ -73,7 +73,7 @@
             <div class="service-box mt-5 mx-auto">
               <img src="/img/membership.png">
               <h3 class="mb-3">Membership</h3>
-              <p class="text-muted mb-0">You have to make your websites with love these days!</p>
+              <p class="text-muted mb-0">Dapatkan diskon khusus untuk member C26 Laundry!</p>
             </div>
           </div>
         </div>
@@ -90,4 +90,4 @@
     </section>
 
 
-    @extends('layouts.footer')
+@extends('layouts.footer')
