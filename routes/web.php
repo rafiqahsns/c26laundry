@@ -17,3 +17,4 @@ Route::get('/membership','Controller@membership')->name('membership');
 Route::get('/tentangkami','Controller@tentangkami')->name('tentangkami');
 Route::get('/stafflogin','Controller@login')->name('login');
 Route::get('/orderbaru','Controller@orderbaru')->name('orderbaru');
+Route::get('/tambahlaundry','Controller@tambahlaundry')->name('tambahlaundry');

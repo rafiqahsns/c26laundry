@@ -34,4 +34,8 @@ class Controller extends BaseController
     {
         return view('staff.orderbaru');
     }
+    public function tambahlaundry()
+    {
+        return view('staff.tambahlaundry');
+    }
 }
