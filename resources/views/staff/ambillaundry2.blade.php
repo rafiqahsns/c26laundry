@@ -3,7 +3,7 @@
 <section class="container">
 
 <!-- Page Heading/Breadcrumbs -->
-<h2 class="mt-4 mb-5 text-uppercase text-center">Invoice
+<h2 class="mt-4 mb-5 text-uppercase text-center">Pengambilan Laundry
 
 </h2>
 
@@ -13,8 +13,8 @@
   <!-- Sidebar Column -->
   <div class="col-lg-3 mb-4">
     <div class="list-group">
-      <a href="{{route('orderbaru')}}" class="list-group-item active">Invoice</a>
-      <a href="{{route('ambillaundry')}}" class="list-group-item">Pengambilan Laundry</a>
+      <a href="{{route('orderbaru')}}" class="list-group-item ">Invoice</a>
+      <a href="{{route('ambillaundry')}}" class="list-group-item active">Pengambilan Laundry</a>
 	 
 	  <div class="dropdown">
 	  <a style="color: #010066"class="list-group-item dropbtn">Membership</a>
@@ -27,70 +27,20 @@
     </div>
   </div>
   <!-- Content Column -->
+  
   <div class="col-lg-9 mb-4">
-    <div class="customer">
-	<div class="container">
-		<button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Cari customer</button>
-
-			<div id="id02" class="modal">
-
-			<form class="modal-content animate" action="/action_page.php">
-				<div class="imgcontainer">
-				<span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
-				
-				</div>
-				
-				<div class="container">
-				<h2 class="text-center">Cari Customer</h2>
-					<div style="width:90%;">
-						<div class="search">
-							<input type="text" class="searchTerm2" placeholder="What are you looking for?">
-							<button type="submit" class="searchButton2">
-								<i class="fa fa-search"></i>
-							</button>
-						</div>
-					</div>
-				</div>
-
-
-			</form>
-			</div>
-        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Tambah customer</button>
-
-        <div id="id01" class="modal">
-        
-        <form class="modal-content animate" action="/action_page.php">
-            <div class="imgcontainer">
-            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-            
-            </div>
-            <h2 class="text-center">Customer Baru</h2>
-            <div class="container">
-            <label for="uname"><b>Nama Lengkap</b></label>
-            <input type="text" placeholder="Nama Lengkap" name="name" required>
-
-            <label for="uname"><b>No. HP</b></label>
-            <input type="text" placeholder="08xxxxxxxxx" name="phone" required>
-            <label for="uname"><b>Alamat</b></label>
-            <input type="text" placeholder="Alamat" name="uname" required>
-            <button type="submit">Tambah Customer</button>
-            </div>
-
-        
-        </form>
-        </div>
-	</div>
+  <div class="customer">
     <div class="container">
     	<div style="padding: 15px 0;">
-    				
-			<strong>Billed To:</strong><br>
+        
+        <h3 class="panel-title"><strong>Customer:</strong></h3>
 								John Smith<br>
 								1234 Main Apt. 4B Springfield, ST 54321<br>
 								081234567890<br>
-    	</div>
-		<button onclick="location.href='{{ route('tambahlaundry') }}'"style="width:auto;">Tambah laundry</button>
-
-		
+        </div>
+        <div style="text-align:right;">
+        Tanggal Masuk: /12/2018<br>
+		Tanggal Selesai: 11/12/2018<br>	</div>
     <div class="row">
     	<div class="col-md-12">
     		<div class="panel panel-default">
@@ -153,8 +103,10 @@
     		</div>
     	</div>
     </div>
-	<button onclick="location.href='{{route('pembayaranbiasa')}}'" style="width:auto;">Pembayaran</button>
+	<button onclick="location.href='{{route('pembayaranbiasa')}}'" style="width:auto;">Ambil Laundry</button>
 </div>
+</div>
+    </div>
 
     </div>
   </div>
@@ -163,15 +115,3 @@
 <!-- /.row -->
 
 </section>
-
-<script>
-// Get the modal
-var modal = document.getElementById('id01');
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-</script>

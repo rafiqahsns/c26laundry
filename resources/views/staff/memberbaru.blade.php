@@ -78,7 +78,7 @@ input[type=submit]:hover {
 				<a href="{{route('tambahdeposit')}}">Tambah Deposit</a>
 			</div>
 	</div>
-      <a href="contact.html" class="list-group-item">Cari Customer</a>
+      <a href="{{route('caricust')}}" class="list-group-item">Cari Customer</a>
     </div>
   </div>
   <!-- Content Column -->

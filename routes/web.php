@@ -23,3 +23,7 @@ Route::get('/ceksaldo','Controller@ceksaldo')->name('ceksaldo');
 Route::get('/memberbaru','Controller@memberbaru')->name('memberbaru');
 Route::get('/tambahdeposit','Controller@tambahdeposit')->name('tambahdeposit');
 Route::get('/ambillaundry','Controller@ambillaundry')->name('ambillaundry');
+Route::get('/ambillaundry2','Controller@ambillaundry2')->name('ambillaundry2');
+Route::get('/caricust','Controller@caricust')->name('caricust');
+Route::get('/caricust2','Controller@caricust2')->name('caricust2');
+Route::get('/lacaklaundry','Controller@lacaklaundry')->name('lacaklaundry');

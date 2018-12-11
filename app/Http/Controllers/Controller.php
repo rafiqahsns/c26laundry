@@ -58,4 +58,20 @@ class Controller extends BaseController
     {
         return view('staff.ambillaundry');
     }
+    public function ambillaundry2()
+    {
+        return view('staff.ambillaundry2');
+    }
+    public function caricust()
+    {
+        return view('staff.caricust');
+    }
+    public function caricust2()
+    {
+        return view('staff.caricust2');
+    }
+    public function lacaklaundry()
+    {
+        return view('lacaklaundry');
+    }
 }
