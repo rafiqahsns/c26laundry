@@ -14,8 +14,15 @@
   <div class="col-lg-3 mb-4">
     <div class="list-group">
       <a href="{{route('orderbaru')}}" class="list-group-item active">Invoice</a>
-      <a href="about.html" class="list-group-item">Pengambilan Laundry</a>
-      <a href="services.html" class="list-group-item">Membership</a>
+      <a href="{{route('ambillaundry')}}" class="list-group-item">Pengambilan Laundry</a>
+	 
+	  <div class="dropdown">
+	  <a style="color: #010066"class="list-group-item dropbtn">Membership</a>
+			<div class="dropdown-content">
+				<a href="{{route('memberbaru')}}">Tambah Member Baru</a>
+				<a href="{{route('tambahdeposit')}}">Tambah Deposit</a>
+			</div>
+		</div>
       <a href="contact.html" class="list-group-item">Cari Customer</a>
     </div>
   </div>
@@ -81,7 +88,7 @@
 								1234 Main Apt. 4B Springfield, ST 54321<br>
 								081234567890<br>
     	</div>
-		<a href="{{ route('membership') }}" class="btn" style="width:auto;">Tambah laundry</a>
+		<button onclick="location.href='{{ route('tambahlaundry') }}'"style="width:auto;">Tambah laundry</button>
 
 		
     <div class="row">
@@ -146,10 +153,12 @@
     		</div>
     	</div>
     </div>
+	<button onclick="location.href='{{route('pembayaranbiasa')}}'" style="width:auto;">Pembayaran</button>
 </div>
 
     </div>
   </div>
+ 
 </div>
 <!-- /.row -->
 

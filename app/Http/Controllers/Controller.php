@@ -38,4 +38,24 @@ class Controller extends BaseController
     {
         return view('staff.tambahlaundry');
     }
+    public function pembayaranbiasa()
+    {
+        return view('staff.pembayaranbiasa');
+    }
+    public function ceksaldo()
+    {
+        return view('ceksaldo');
+    }
+    public function memberbaru()
+    {
+        return view('staff.memberbaru');
+    }
+    public function tambahdeposit()
+    {
+        return view('staff.tambahdeposit');
+    }
+    public function ambillaundry()
+    {
+        return view('staff.ambillaundry');
+    }
 }

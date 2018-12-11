@@ -18,3 +18,8 @@ Route::get('/tentangkami','Controller@tentangkami')->name('tentangkami');
 Route::get('/stafflogin','Controller@login')->name('login');
 Route::get('/orderbaru','Controller@orderbaru')->name('orderbaru');
 Route::get('/tambahlaundry','Controller@tambahlaundry')->name('tambahlaundry');
+Route::get('/pembayaranbiasa','Controller@pembayaranbiasa')->name('pembayaranbiasa');
+Route::get('/ceksaldo','Controller@ceksaldo')->name('ceksaldo');
+Route::get('/memberbaru','Controller@memberbaru')->name('memberbaru');
+Route::get('/tambahdeposit','Controller@tambahdeposit')->name('tambahdeposit');
+Route::get('/ambillaundry','Controller@ambillaundry')->name('ambillaundry');

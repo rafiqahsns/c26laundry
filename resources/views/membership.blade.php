@@ -12,7 +12,7 @@
 <section class="bg-primary" id="about">
 <div class="container">
     <div class="row">
-      <div class="col-xs-12 col-md-6"> <img src="img/about.jpg" class="img-responsive" alt=""> </div>
+      <div class="col-xs-12 col-md-6"> <img src="img/about.jpg" style="width:100%" class="img-responsive" alt=""> </div>
       <div class="col-xs-12 col-md-6">
         <div class="about-text text-white">
           <h2 class="text-center">About Us</h2>
@@ -72,6 +72,23 @@
         </div>
       </div>
             </div>
+        </div>
+      </div>
+</section>
+
+<section class=" bg-dark"id="#ceksaldo">
+<div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading text-white">Cek Saldo</h2>
+            <hr class="light my-4">
+            <div class="search">
+                <input type="text" style="box-shadow:none;"class="searchTerm" placeholder=" Masukkan id member">
+                <button style="padding: 0px;" type="submit" class="searchButton">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+          </div>
         </div>
       </div>
 </section>
