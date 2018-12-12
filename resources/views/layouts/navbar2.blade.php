@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -24,20 +24,21 @@
     <!-- Custom styles for this template -->
     <link href="css/creative.min.css" rel="stylesheet">
 
-  </head>
+</head>
 
 <!-- Navigation -->
+
 <body id=page-top>
-<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div>
-        <img src="../img/131106.jpg">
-        <a class="navbar-brand" href="#page-top"> C26 Laundry</a>
-        
-      </div>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div>
+            <img src="../img/131106.jpg">
+            <a class="navbar-brand" href="#page-top"> C26 Laundry</a>
+
+        </div>
     </nav>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Plugin JavaScript -->
@@ -48,9 +49,6 @@
     <!-- Custom scripts for this template -->
     <script src="js/creative.min.js"></script>
 
-
 </body>
-
-
 
 </html>
